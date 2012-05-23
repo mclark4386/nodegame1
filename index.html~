@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/app.css" rel="stylesheet">
-    <title>Template Game</title>
+    <title>Node Game1</title>
 </head>
 <body>
     <!-- Insert web content here -->
+    <div id="board">
+    <piece class="pawn p1" />
+    <piece class="pawn p2" />
+    </div>
+
 
     <!-- If you need/want to load libraries via <script> rather than 
       require.js, it's safest to insert those script tags here before
