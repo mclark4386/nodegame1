@@ -13,8 +13,8 @@
     
 <script type="text/javascript" src="http://cdn.craftycomponents.com/crafty-release.js"></script>
       <script>
-      var screenW = window.innerWidth*.8;
-      var screenH = window.innerHeight*.8;
+      var screenW = window.innerWidth;//*.8;
+      var screenH = window.innerHeight;//*.8;
       Crafty.init(screenW,screenH);
       Crafty.background('rgb(127,127,127)');
 
@@ -35,8 +35,8 @@
 				    dY:Crafty.math.randomInt(2,5)})
 		.bind('EnterFrame', function(){
 		      //hit floor or roof
-		      if(this.y <= 0||this.y>=screenH-10)
-		            this.dY += -1;
+		      if(this.y <= 0 || this.y >= screenH-10)
+		            this.dY *= -1;
 		      if(this.x > screenW){
 		            this.x = screenW/2;
 			    Crafty("P1Points").each(function(){
