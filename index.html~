@@ -8,15 +8,20 @@
 </head>
 <body>
     <!-- Insert web content here -->
-    <div id="board">
+    <canvas id="board">
     <piece class="pawn p1" />
     <piece class="pawn p2" />
-    </div>
+    </canvas>
 
 
     <!-- If you need/want to load libraries via <script> rather than 
       require.js, it's safest to insert those script tags here before
       require loads -->
+
+      <script>
+      Crafty = require('crafty'); 
+      Crafty.init(window.innerWidth*.8,window.innerHeight*.8);
+      </script>
       
     <script src="js/lib/require.js" charset="utf-8"></script>
     
