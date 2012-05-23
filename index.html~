@@ -20,6 +20,12 @@
 <script type="text/javascript" src="http://cdn.craftycomponents.com/crafty-release.js"></script>
       <script>
       Crafty.init(window.innerWidth*.8,window.innerHeight*.8);
+      Crafty.background('rgb(127,127,0)');
+
+      Crafty.e("Paddle, 2D, DOM, Color, Multiway")
+              .color('rgb(255,0,0)')
+	      .attr({x: 20, y: 100, w: 10, h: 100})
+	      .multiway(4, {W: -90, S: 90});
       </script>
       
     <script src="js/lib/require.js" charset="utf-8"></script>
