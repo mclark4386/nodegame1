@@ -8,17 +8,12 @@
 </head>
 <body>
     <!-- Insert web content here -->
-<!--    <canvas id="board">
-    <piece class="pawn p1" />
-    <piece class="pawn p2" />
-    </canvas>
--->
 
     <!-- If you need/want to load libraries via <script> rather than 
       require.js, it's safest to insert those script tags here before
       require loads -->
 <script type="text/javascript" src="http://cdn.craftycomponents.com/crafty-release.js"></script>
-      <script type="text/javascript" src="game.js">
+      <script type="text/javascript" src="js/game.js">
       </script>
       
     <script src="js/lib/require.js" charset="utf-8"></script>
