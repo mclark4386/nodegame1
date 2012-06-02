@@ -1,3 +1,24 @@
 canvas{
 	background:#454545;
 }
+div.transform-h-x {
+	transform: matrix(1.42,0,0,0.71,0,0) rotate(45deg);
+	-o-transform: matrix(1.42,0,0,0.71,0,0) rotate(45deg);
+	-ms-transform: matrix(1.42,0,0,0.71,0,0) rotate(45deg);
+	-webkit-transform: matrix(1.42,0,0,0.71,0,0) rotate(45deg);
+	-moz-transform: matrix(1.42,0,0,0.71,0,0) rotate(45deg);
+}
+div.transform-v-z {
+	transform: matrix(1,-0.5,0,1,0,0);
+	-o-transform: matrix(1,-0.5,0,1,0,0);
+	-ms-transform: matrix(1,-0.5,0,1,0,0);
+	-webkit-transform: matrix(1,-0.5,0,1,0,0);
+	-moz-transform: matrix(1,-0.5,0,1,0,0);
+}
+div.transform-v-y {
+	transform: matrix(1,0.5,0,1,0,0);
+	-o-transform: matrix(1,0.5,0,1,0,0);
+	-ms-transform: matrix(1,0.5,0,1,0,0);
+	-webkit-transform: matrix(1,0.5,0,1,0,0);
+	-moz-transform: matrix(1,0.5,0,1,0,0);
+}
